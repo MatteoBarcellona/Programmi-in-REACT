@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Matteo</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+     <header class="active">
+        <a href="" class="logo">Matteo Barcellona</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Servizi</a>
+            <a href="#">About</a>
+            <a href="#">Progetti</a>
+            <a href="#">Contatti</a>
+        </nav>
+     </header>
+
+     <div class="bars-box active">
+        <div class="bar" style="--i:6"></div>
+        <div class="bar" style="--i:5"></div>
+        <div class="bar" style="--i:4"></div>
+        <div class="bar" style="--i:3"></div>
+        <div class="bar" style="--i:2"></div>
+        <div class="bar" style="--i:1"></div>
+     </div>
+
+    <section class="home active">
+        <div class="home-detail">
+            <h1 style="font-size: 39px;">Matteo Barcellona</h1>
+            <h2 style="font-size: 27px;">Io sono:
+                <span style="--i:4" data-text="Web Developer">Web Developer</span> 
+                <span style="--i:3" data-text="Software Developer">Software Developer</span> 
+                <span style="--i:2" data-text="Programmatore">Programmatore</span> 
+                <span style="--i:1" data-text="Java Developer">Java Developer</span> 
+            </h2>
+            <p>Ciao! Sono Matteo Barcellona, piacere di conoscerti! Ho scelto di studiare informatica perché sono sempre stato affascinato dal mondo del web e dalla possibilità di creare cose nuove attraverso il codice. Lavorare con linguaggi come HTML, CSS, JavaScript e C++.</p>
+
+            <div class="btn-sci">
+                <a href="images/cv-matteo.pdf" download="images/cv-matteo.pdf" class="btn">Downlaod CV</a>
+                <div class="sci">
+                    <a href="https://github.com/MatteoBarcellona"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.linkedin.com/in/matteo-barcellona-33a439319"><i class='bx bxl-linkedin-square' ></i></a>
+                    <a onclick="myFunction()"><i class='bx bxs-moon'></i></a>
+                    <a onclick="playMusicInLoop()" style="cursor: pointer;">
+                        <i class='bx bx-music'></i>
+                      </a>
+                    <a href="https://matteobarcellona.github.io/Sito-personale/"><i class='bx bx-home-alt' ></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="images/home.png" style="border-radius: 50rem;border: solid var(--main-color) 1rem;">
+                </div>
+            </div>
+        </div>
+
+    </section>
+     <section class="services">
+        <h2 class="heading">Mie  <span>Servizi</span> </h2>
+        <div class="services-container">
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-code-alt'></i>
+                    <a href="https://github.com/MatteoBarcellona/Web-Developer"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Web Developer</h3>
+                <p>Sono uno Web Developer con esperienza nella creazione di siti e applicazioni dinamiche, responsive e orientate all'utente. Specializzato in HTML, CSS, JavaScript e framework moderni, trasformo idee in soluzioni digitali di alta qualità. Il mio obiettivo è unire design accattivante e funzionalità impeccabile per garantire esperienze web straordinarie.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-square-rounded'></i>
+                    <a href="https://github.com/MatteoBarcellona/Software-Developer"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Software Developer</h3>
+                <p>Sono un software developer con esperienza nella progettazione e sviluppo di applicazioni scalabili e performanti. Specializzato in linguaggi come Python, Java e C++, creo soluzioni innovative che rispondono alle esigenze degli utenti. La mia passione è tradurre complessità tecniche in software intuitivi ed efficienti.</p>
+            </div>
+
+            
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bxl-angular'></i>
+                    <a href="https://github.com/MatteoBarcellona/Front-End-Developer"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Front-End Developer</h3>
+                <p>Sono un Front-End Developer esperto nella creazione di interfacce web moderne, responsive e intuitive. Utilizzo tecnologie come HTML, CSS, JavaScript, Angular e framework come React per offrire esperienze utente fluide e accattivanti. La mia priorità è combinare design innovativo e funzionalità impeccabile.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bxl-visual-studio' ></i>
+                    <a href="https://github.com/MatteoBarcellona/Full-Stack-Developer"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Full-Stack Developer</h3>
+                <p>Sono un Full-Stack Developer con competenze sia nel front-end che nel back-end, capace di sviluppare applicazioni complete e scalabili. Utilizzo tecnologie come HTML, CSS, JavaScript, React, Node.js e database come MongoDB o SQL per costruire soluzioni end-to-end. La mia missione è creare software.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-data' ></i>
+                    <a href="https://github.com/MatteoBarcellona/Back-And-Developer"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Back-And Developer</h3>
+                <p>Sono un Back-End Developer specializzato nello sviluppo di sistemi robusti, sicuri e scalabili. Utilizzo linguaggi come Python, Java e PHP, insieme a database come MySQL e MongoDB, per progettare architetture server-side efficienti. Il mio obiettivo è garantire prestazioni elevate e integrare perfettamente il back-end con il front-end.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bxl-java' ></i>
+                    <a href="https://github.com/MatteoBarcellona/Programmi-in-JAVA"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Java Developer</h3>
+                <p>Sono un Java Developer con esperienza nello sviluppo di applicazioni robuste, scalabili e orientate agli oggetti. Specializzato in framework come Spring e Hibernate, realizzo soluzioni backend efficienti e sicure. La mia priorità è creare software di qualità che soddisfino le esigenze degli utenti e delle aziende.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bxl-c-plus-plus'></i>
+                    <a href="https://github.com/MatteoBarcellona/Programmi-in-Csharp"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>C# Developer</h3>
+                <p>Sono un C# Developer con esperienza nello sviluppo di applicazioni desktop, web e software enterprise. Specializzato nell’uso di .NET e ASP.NET, creo soluzioni scalabili e performanti. Attualmente sto approfondendo [tecnologie correlate, ad esempio Blazor, Entity Framework o integrazione con servizi cloud]. La mia priorità è tradurre le esigenze aziendali in software affidabili e di alta qualità.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bxl-python' ></i>
+                    <a href="https://github.com/MatteoBarcellona/Programmi-in-PYTHON"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Python Developer</h3>
+                <p>Sono un Python Developer con esperienza nello sviluppo di applicazioni web, automazione e analisi dei dati. Specializzato in framework come Django e Flask, creo soluzioni efficienti e scalabili. La mia passione è trasformare problemi complessi in codice pulito e performante.</p>
+            </div>
+
+        </div>
+
+     </section>
+     <section class="resume">
+    <div class="resume-container">
+        <div class="resume-box">
+            <h2>About</h2>
+            <p class="desc">In questa sezione troverai le mie abilità e il mio livello di esperienza, acquisiti durante il percorso di studio e lavoro, insieme a ciò che sto apprendendo attualmentee buona visualizzazione!</p>
+            <button class="resume-btn active">Espereinza</button>
+            <button class="resume-btn">Skilles</button>
+            <button class="resume-btn">About</button>
+        </div>
+        <div class="resume-box">
+
+            <div class="resume-detail experience active">
+                <h2 class="heading">Mia <span>Esperienza</span> </h2>
+                <p class="desc">Sono uno sviluppatore appassionato con esperienza nei linguaggi Python, Java e JavaScript. Attualmente lavoro nel campo della programmazione e continuo a perfezionare le mie competenze in linguaggi e tecnologie, come React e database avanzati e lavoro nelle aziende elencate!</p>
+                    <div class="resume-list">
+
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>Programmatore Web (stage)</h3>
+                            <p class="company">Gruppo SCAI, Consulenza Aziendale Informatica</p>
+                            <p>Stage Programmatore Web presso il Gruppo SCAI di Torino</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2022 - 2023</p>
+                            <h3>Software Developer (Tirocinio)</h3>
+                            <p class="company">Gruppo SCAI, Consulenza Aziendale Informatica</p>
+                            <p>Tironcinio Programmatore Web presso il Gruppo SCAI di Torino</p>
+                        </div>
+
+                    </div>
+            </div>
+
+        
+
+            <div class="resume-detail skills">
+                <h2 class="heading">Mie <span>Skills</span> </h2>
+                <p class="desc">Buona competenza nei linguaggi di programmazione Java e JavaScript, con abilità avanzate nell'utilizzo di Node.js, Bootstrap, HTML e CSS. Ho familiarità con i programmi di Microsoft 365 e Documenti Google. Possiedo un'ottima conoscenza del front-end e una buona conoscenza del back-end. Per visualizzare le competenze in questi linguaggi, clicca sui loro nomi nel link che porta al GitHub.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <i class='bx bxl-html5'></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-css3' ></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-javascript' ></i>
+                            <span>JAVASCRIPT</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-c-plus-plus' ></i>
+                            <span>C++</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-java' ></i>
+                            <span>JAVA</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-python' ></i>
+                            <span>PYTHON</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-php' ></i>
+                            <span>PHP</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-nodejs' ></i>
+                            <span>NODE.JS</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-angular' ></i>
+                            <span>ANGULAR</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-react' ></i>
+                            <span>REACT</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-typescript' ></i>
+                            <span>TYPESCRIPT</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bx-data' ></i>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+            </div>
+
+
+            <div class="resume-detail about">
+                <h2 class="heading">Chi <span>Sono</span> </h2>
+                <p class="desc">Sono una persona curiosa, determinata e sempre pronta a mettermi in gioco. Amo imparare e affrontare nuove sfide, sia sul piano professionale che personale. Credo fermamente nell'importanza di una mentalità aperta e nel continuo miglioramento. La mia passione per la tecnologia e la programmazione mi permette di esprimere la mia creatività, risolvendo problemi complessi e creando soluzioni pratiche e innovative.</p>
+                    <div class="resume-list">
+
+                        <div class="resume-item">
+                            <p>Nome:<span>Matteo(salvatore)</span></p> 
+                        </div>
+                        <div class="resume-item">
+                            <p>Cognome:<span>Barcellona</span></p> 
+                         </div>
+                         <div class="resume-item">
+                            <p>Città:<span>Nichelino-Torino</span></p> 
+                         </div>
+
+                         <div class="resume-item">
+                            <p>Hobby:<span>Giocare videogiochi</span></p> 
+                         </div>
+                        <div class="resume-item">
+                            <p>Hobby2:<span>Fare sport</span></p> 
+                         </div>
+                         <div class="resume-item">
+                            <p>Hobby3:<span>Creatività</span></p> 
+                         </div>
+
+
+                         <div class="resume-item">
+                            <p>Abilità:<span>programmazione</span></p> 
+                         </div>
+                        <div class="resume-item">
+                            <p>Abilità2<span>Uso programmi</span></p> 
+                         </div>
+                         <div class="resume-item">
+                            <p>Abilità3<span>Lavoro di squadra</span></p> 
+                         </div>
+                    </div>
+            </div>
+        </div>
+
+     </section>
+   <section class="portfolio">
+      <h2 class="heading"> Miei <span>Progetti</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+            <div class="portfolio-detail active">
+                <p class="numbb">01</p>
+                <h3>Progetto in MERCATO-AZIONARIO-GUI </h3>
+                <p>Ho creato questo progetto per gestire un mercato azionario.</p>
+                   <div class="tech">
+                    <p>JAVA</p>
+                   </div>
+                   <div class="live-github">
+                    <a href="download/MERCATO-AZIONARIO-GUI.zip"><i class='bx bx-arrow-back'></i> <span>Download Progetto</span></a>
+                </div>
+            </div>
+            <div class="portfolio-detail">
+                <p class="numbb">02</p>
+                <h3>The Playlist GUI</h3>
+                <p>Ho creato questo progetto per gestire una playlist musicale.</p>
+                   <div class="tech">
+                    <p>JAVA</p>
+                   </div>
+                   <div class="live-github">
+                    <a href="download/Gui-musica.zip"><i class='bx bx-arrow-back'></i> <span>Download Progetto</span></a>
+                </div>
+            </div>
+            <div class="portfolio-detail">
+                <p class="numbb">03</p>
+                <h3>Progetto Lista degli elementi</h3>
+                <p>Ho creato il mio primo progetto in Angular, che consente di aggiungere una lista di elementi.</p>
+                   <div class="tech">
+                    <p>ANGULAR, TYPESCRIPT ,SCSS ,HTML, JAVASCRIPT</p>
+                   </div>
+                   <div class="live-github">
+                    <a href="download/Es progetto 1.zip"><i class='bx bx-arrow-back'></i> <span>Download Progetto</span></a>
+                </div>
+            </div>
+            <div class="portfolio-detail">
+                <p class="numbb">04</p>
+                <h3>Progetto Gestione Cards</h3>
+                <p>Ho creato un progetto in Angular che permette di aggiungere una lista di card rappresentative degli elementi. Le card possono essere anche eliminate cliccandoci sopra.</p>
+                   <div class="tech">
+                    <p>ANGULAR, TYPESCRIPT ,SCSS ,HTML, JAVASCRIPT</p>
+                   </div>
+                   <div class="live-github">
+                    <a href="download/Es progetto 2 (lista card array).zip"><i class='bx bx-arrow-back'></i> <span>Download Progetto</span></a>
+                </div>
+            </div>
+            <div class="portfolio-detail">
+                <p class="numbb">05</p>
+                <h3>Progetto Lista degli elementi</h3>
+                <p>Ho creato un progetto in Angular ispirato al negozio IKEA.</p>
+                   <div class="tech">
+                    <p>ANGULAR, TYPESCRIPT ,SCSS ,HTML, JAVASCRIPT, JAVA</p>
+                   </div>
+                   <div class="live-github">
+                    <a href="download/Es progetto 2 (lista card array).zip"><i class='bx bx-arrow-back'></i> <span>Download Progetto</span></a>
+                </div>
+                </div>
+            </div>
+     
+
+        
+        <div class="portfolio-box">
+            <div class="portfolio-casual">
+                <div class="img-slide">
+                    <div class="img-item">
+                        <img src="images/p1.png" alt="">
+                    </div>
+                    <div class="img-item">
+                        <img src="images/p2.png" alt="">
+                    </div>
+                    <div class="img-item">
+                        <img src="images/p3.png" alt="">
+                    </div>
+                    <div class="img-item">
+                        <img src="images/p4.png" alt="">
+                    </div>
+                    <div class="img-item">
+                        <img src="images/p5.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="navigation">
+                <button class="arrow-left disabled"><i class='bx bx-chevron-left'></i></button>
+                <button class="arrow-right"><i class='bx bx-chevron-right' ></i></button>
+            </div>
+        </div>
+    </div>
+
+    
+   </section>
+    <!-- contact section -->
+    <section class="contact">
+        <div class="contact-continer">
+            <div class="contact-box">
+                <h2>Come contattarmi</h2>
+                <p class="desc">Puoi contattarmi usando i due email che ti ho elencato.Aspetterò il tuo messaggio e ti risponderò appena possibile.Spero che tutto sia chiaro e che non ci siano problemi.
+                    Se hai bisogno di ulteriori informazioni non esitare a chiedere.</p>
+
+                <div class="contact-detail">
+                    <i class='bx bx-envelope' ></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>matteobarcellona31@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <i class='bx bx-envelope' ></i>
+                    <div class="detail">
+                        <p>Email(2)</p>
+                        <p>mbarvellona@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <i class='bx bxs-map' ></i>
+                    <div class="detail">
+                        <p>Indirizzo</p>
+                        <p>Torino-Nichelino</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="contact-box">
+                    <div class="field-box">
+                        <div class="calendario">
+                            <h2 class="heading"> <span>Calendario</span></h2>
+                            <div class="calendar">
+                                <div class="date" id="date">Data: --/--/----</div>
+                                <div class="time" id="time">Ora: --:--:--</div>
+                                <div class="days" id="days"></div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </section>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
